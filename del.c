@@ -7,5 +7,8 @@
  */
 int main(void)
 {
+	int age = 19;
+
+	printf("Started coding at %d\n", age);
 	return (0);
 }
