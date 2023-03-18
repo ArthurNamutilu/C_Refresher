@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * cube -The programs find the cube of a given number
+ * @num: - value to be cubed
  *
- * cube - cubes an entered value;
- *
- * Return: Always 0 (Success)
+ * Return: The cube of the number
  */
 
 double cube(double num)
@@ -15,6 +14,12 @@ double cube(double num)
 	printf("%f\n", result);
 	return (result);
 }
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
