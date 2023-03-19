@@ -15,7 +15,7 @@ int main(void)
 	char grade = 'A';
 	char * pGrade = &grade;
 
-	printf("num's memory adress: %p\n", &num);
+	printf("num's memory adress: %p\n", &pNum);
 
 	return (0);
 }
