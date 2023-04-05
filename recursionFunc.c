@@ -20,9 +20,9 @@ int SumDigits(int n)
 
 int main(void)
 {
-	int j = SumDigits(783);
+	int j = SumDigits(999);
 
-	printf("Sum of all digits is %d", j);
+	printf("Sum of all digits is %d\n", j);
 
 	return (0);
 }
