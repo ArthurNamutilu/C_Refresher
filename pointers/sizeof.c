@@ -9,6 +9,7 @@ int main(void)
 	printf("Size of 'char' is: %lu bytes\n", sizeof(int));
 	printf("Size of 'float' is: %lu bytes\n", sizeof(float));
 	printf("Size of 'char' is: %lu bytes\n", sizeof(char));
+	printf("Size of 'int' is: %lu bytes\n", sizeof(int));
 
 	return (0);
 }
